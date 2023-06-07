@@ -14,3 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "example application"
 include ':app'
+
+include ':lib'
+project(':lib').projectDir = new File(rootDir, 'lib/lib/')
